@@ -3,7 +3,6 @@
 
 This project is a Python script designed to automate the process of adding users to a Telegram group using their mobile numbers. The script reads phone numbers from an Excel file, adds them to your Telegram contacts, and then invites them to a specified Telegram group. It also handles privacy restrictions, updates contact names, and generates a detailed report of the process.
 
----
 
 ## Features
 
@@ -20,7 +19,6 @@ This project is a Python script designed to automate the process of adding users
   - Restricted from being added (invite sent via private message).
   - Not registered on Telegram.
 
----
 
 ## Technologies and Libraries Used
 
@@ -30,7 +28,6 @@ This project is a Python script designed to automate the process of adding users
 - **ConfigParser**: Manages configuration settings from a `config.ini` file.
 - **JSON**: Stores and manages invite messages in a separate file (`invite_messages.json`).
 
----
 
 ## How It Works
 
@@ -57,7 +54,6 @@ This project is a Python script designed to automate the process of adding users
 5. **Report Generation**:
    - After processing all numbers, the script generates an Excel report (`telegram_group_report.xlsx`) with the status of each number.
 
----
 
 ## Managing Invite Messages
 
@@ -101,8 +97,6 @@ Copy the generated messages and paste them directly into the `invite_messages.js
 ```
 
 
----
-
 ## Setup and Usage
 
 ### Prerequisites
@@ -141,7 +135,6 @@ Copy the generated messages and paste them directly into the `invite_messages.js
    python tg_adder.py
    ```
 
----
 
 ## Example Report
 
@@ -149,7 +142,6 @@ The script generates an Excel report (`telegram_group_report.xlsx`) with the fol
 - **Phone**: The phone number processed.
 - **Status**: The result of the operation (e.g., "Added to group successfully", "Invite sent via PM", "Not registered on Telegram").
 
----
 
 ## Anti-Ban Measures
 
@@ -158,7 +150,6 @@ To prevent your Telegram account from being banned, the script includes the foll
 - **Rate Limit Handling**: Automatically handles rate limits (e.g., `FloodWaitError`).
 - **Randomized Messages**: Uses a random invite message from `invite_messages.json` to avoid detection as spam.
 
----
 
 ## Contributing
 
@@ -169,18 +160,15 @@ We welcome contributions from everyone! If you have suggestions, improvements, o
 3. **Create a Pull Request:** Submit a PR with a clear description of your changes.
 4. **Review and Merge:** Your PR will be reviewed and merged once approved.
 
----
 
 ## ⚠️ Disclaimer
 
 **Please Note**: This is a research project. I am by no means responsible for any usage of this tool. Use it at your own discretion. I'm also not responsible if your accounts get banned due to extensive use of this tool.
 
----
+
 ## ⚠️ Scam Alert
 
 Some scammers are selling this free script and scamming people for money. **You don't need to pay anyone for this script**. It is freely available on GitHub for everyone to use and modify.
-
----
 
 
 ## License
